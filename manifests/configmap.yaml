@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: zq-gh-action-flow-config
+  namespace: contoso-air-ns
+  labels:
+    app.kubernetes.io/name: zq-gh-action-flow
+    kubernetes.azure.com/generator: devhub
+data:
